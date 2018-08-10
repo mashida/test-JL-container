@@ -27,6 +27,7 @@ Vagrant.configure("2") do |config|
     docker pull postgres:10
     docker pull redis
     docker pull python:3.6
+    docker pull node:
   SHELL
 
 end
