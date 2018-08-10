@@ -12,4 +12,4 @@
 
 ### marketplace.nginx
 
-Front-сервер
+Front-сервер для обслуживания домена
