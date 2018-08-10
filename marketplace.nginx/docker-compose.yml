@@ -1,0 +1,13 @@
+version: "3"
+
+networks:
+  marletplace:
+    external: true
+
+services:
+  front-nginx:
+    container_name: marketplace.nginx
+    ports:
+      - "80:80"
+    environment:
+      - ENV=development

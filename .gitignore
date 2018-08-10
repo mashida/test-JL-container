@@ -1,0 +1,9 @@
+.vagrant/
+.idea/
+
+__pycache__/
+
+*.log
+*.db
+
+marketplace.app/flask_sessions/
